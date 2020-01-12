@@ -6,7 +6,6 @@ export default ({ data }) => {
 
   return (
     <div>
-      <h1>Test</h1>
       <Link to={"/blog"}>Go Back</Link>
       <hr />
       <h1>{post.frontmatter.title}</h1>
