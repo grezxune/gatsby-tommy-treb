@@ -3,6 +3,7 @@ path: "/post-one"
 date: "2020-01-10"
 title: "My First Gatsby Post"
 author: "Tommy Treb"
+type: "Blog"
 ---
 
 # This is my very first blog post in Gatsby

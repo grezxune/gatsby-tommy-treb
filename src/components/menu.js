@@ -1,21 +1,28 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
+
+const Container = styled.div`
+  background: var(--accent-color);
+  padding-top: 10px;
+  width: 100%;
+`
+
+const MenuList = styled.ul`
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+
+  li a {
+    color: var(--secondary-color);
+  }
+`
 
 export default () => {
   return (
-    <div
-      style={{
-        background: "#F4F4F4",
-        paddingTop: "10px",
-      }}
-    >
-      <ul
-        style={{
-          listStyle: "none",
-          display: "flex",
-          justifyContent: "space-evenly",
-        }}
-      >
+    <Container>
+      <MenuList>
         <li>
           <Link to={"/"}>Home</Link>
         </li>
@@ -23,12 +30,12 @@ export default () => {
           <Link to={"/about"}>About</Link>
         </li>
         <li>
-          <Link to={"/services"}>Services</Link>
+          <Link to={"/projectList"}>Projects</Link>
         </li>
         <li>
           <Link to={"/blog"}>Blog</Link>
         </li>
-      </ul>
-    </div>
+      </MenuList>
+    </Container>
   )
 }
