@@ -69,15 +69,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: "theme-color",
-          content: "#bdd8dc",
+          content: "#1f1f1f",
         },
         {
           name: "msapplication-navbutton-color",
-          content: "#bdd8dc",
+          content: "#1f1f1f",
         },
         {
           name: "apple-mobile-web-app-status-bar-style",
-          content: "#bdd8dc",
+          content: "#1f1f1f",
         },
       ].concat(meta)}
     />
