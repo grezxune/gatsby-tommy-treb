@@ -14,17 +14,14 @@ const BlogListItem = styled(Link)`
     min-width: 100%;
   }
 
-  &:hover {
-    background: var(--secondary-color);
-  }
-
   & h3,
   small {
-    color: black;
+    color: var(--accent-color);
   }
 `
 
 const BlogPage = ({ data }) => {
+  console.log("Data:", data)
   return (
     <Layout>
       <SEO title="Blog" />
@@ -37,7 +34,11 @@ const BlogPage = ({ data }) => {
         }}
       >
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <BlogListItem key={node.id} to={node.frontmatter.path}>
+          <BlogListItem
+            key={node.id}
+            to={node.frontmatter.path}
+            className="hover-card"
+          >
             <h3>{node.frontmatter.title}</h3>
             <small style={{ display: "block" }}>
               Posted by {node.frontmatter.author} on {node.frontmatter.date}
@@ -51,7 +52,10 @@ const BlogPage = ({ data }) => {
 
 export const pageQuery = graphql`
   query blogIndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "Blog" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           id

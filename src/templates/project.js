@@ -4,11 +4,13 @@ import Layout from "../components/layout"
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  const image = require(`../images/projects/${post.frontmatter.imageName}`)
 
   return (
     <Layout>
       <div>
-        <h1>{post.frontmatter.title}</h1>
+        <h1 style={{ textAlign: "center" }}>{post.frontmatter.title}</h1>
+        <img src={image} alt={post.frontmatter.title} height={500} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
@@ -22,9 +24,7 @@ export const postQuery = graphql`
       frontmatter {
         path
         title
-        frontend
-        backend
-        database
+        imageName
       }
     }
   }

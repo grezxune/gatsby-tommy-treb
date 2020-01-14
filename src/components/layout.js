@@ -5,6 +5,7 @@ import styled from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
+import "./custom.css"
 import Footer from "./footer"
 
 const Container = styled.div`
