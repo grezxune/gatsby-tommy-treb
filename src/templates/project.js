@@ -4,6 +4,7 @@ import styled from "styled-components"
 import { FaExternalLinkAlt } from "react-icons/fa"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const ProjectContainer = styled.div`
   display: flex;
@@ -39,6 +40,7 @@ export default ({ data }) => {
   console.log("HREF: ", post.frontmatter.projectURL)
   return (
     <Layout>
+      <SEO title={post.frontmatter.title} />
       <ProjectContainer>
         <h1 style={{ textAlign: "center" }}>{post.frontmatter.title}</h1>
         <img
