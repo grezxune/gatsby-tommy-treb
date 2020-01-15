@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
+import { IconContext } from "react-icons"
 
 import Header from "./header"
 import "./layout.css"
@@ -34,11 +35,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <Container>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Main>{children}</Main>
-      <Footer />
-    </Container>
+    <IconContext.Provider value={{ color: "var(--accent-color)" }}>
+      <Container>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <Main>{children}</Main>
+        <Footer />
+      </Container>
+    </IconContext.Provider>
   )
 }
 

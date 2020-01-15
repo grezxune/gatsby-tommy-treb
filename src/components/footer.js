@@ -5,7 +5,7 @@ const Footer = styled.footer`
   text-align: center;
   background: var(--accent-color);
   padding: 10px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 `
 
 export default () => {

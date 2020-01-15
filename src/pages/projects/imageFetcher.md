@@ -6,6 +6,7 @@ backend: "Python (Flask)"
 database: "File storage on server"
 type: "Project"
 imageName: "screenshot-image-fetcher.png"
+projectURL: "http://image-fetcher.tommytreb.com"
 ---
 
 # Image Scraper & Getting Around Hotlinking

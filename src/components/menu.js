@@ -1,41 +1,79 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { Location } from "@reach/router"
 
 const Container = styled.div`
   background: var(--accent-color);
-  padding-top: 10px;
+  padding: 10px;
   width: 100%;
 `
 
 const MenuList = styled.ul`
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
   margin: 0px;
+`
 
-  li a {
-    color: var(--secondary-color);
+const CustomListItem = styled.li`
+  flex: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  transition-property: "border";
+  transition-duratoin: 1s;
+
+  & a {
+    text-align: center;
+    color: var(--primary-color);
+    border-bottom: ${({ currentPage }) =>
+      currentPage ? "2px solid var(--primary-color)" : "none"};
+
+    &:hover {
+      border-bottom: ${({ currentPage }) =>
+        currentPage ? "" : "2px solid var(--secondary-color)"};
+    }
   }
 `
 
-export default () => {
+export default props => {
+  const menuItems = [
+    {
+      path: "/",
+      title: "Home",
+    },
+    {
+      path: "/about",
+      title: "About",
+    },
+    {
+      path: "/projectList",
+      title: "Projects",
+    },
+    {
+      path: "/blog",
+      title: "Blog",
+    },
+  ]
+
   return (
-    <Container>
-      <MenuList>
-        <li>
-          <Link to={"/"}>Home</Link>
-        </li>
-        <li>
-          <Link to={"/about"}>About</Link>
-        </li>
-        <li>
-          <Link to={"/projectList"}>Projects</Link>
-        </li>
-        <li>
-          <Link to={"/blog"}>Blog</Link>
-        </li>
-      </MenuList>
-    </Container>
+    <Location>
+      {({ location }) => (
+        <Container>
+          <MenuList>
+            {menuItems.map(({ path, title }) => (
+              <CustomListItem
+                key={path}
+                currentPage={path === location.pathname}
+              >
+                <Link to={path}>{title}</Link>
+              </CustomListItem>
+            ))}
+          </MenuList>
+        </Container>
+      )}
+    </Location>
   )
 }

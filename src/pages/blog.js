@@ -5,10 +5,18 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const BlogList = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+`
+
 const BlogListItem = styled(Link)`
   min-width: 50vw;
   margin: 10px 0px;
   padding: 10px;
+  background: var(--accent-color);
 
   @media (max-width: 1000px) {
     min-width: 100%;
@@ -16,23 +24,27 @@ const BlogListItem = styled(Link)`
 
   & h3,
   small {
-    color: var(--accent-color);
+    transition-property: "color";
+    transition-duration: 0.5s;
+    color: var(--primary-color);
+  }
+
+  &:hover {
+    background: var(--primary-color);
+    box-shadow: 2px 2px 4px 0.5px var(--accent-color);
+
+    h3,
+    small {
+      color: var(--accent-color);
+    }
   }
 `
 
 const BlogPage = ({ data }) => {
-  console.log("Data:", data)
   return (
     <Layout>
       <SEO title="Blog" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
+      <BlogList>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <BlogListItem
             key={node.id}
@@ -45,7 +57,7 @@ const BlogPage = ({ data }) => {
             </small>
           </BlogListItem>
         ))}
-      </div>
+      </BlogList>
     </Layout>
   )
 }

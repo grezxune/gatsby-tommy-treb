@@ -17,11 +17,22 @@ const ProjectTile = styled.div`
   margin: 10px;
 
   a {
-    color: var(--secondary-color);
+    transition-property: "color";
+    transition-duration: 0.5s;
+    color: var(--primary-color);
   }
 
   @media (max-width: 750px) {
     width: 100%;
+  }
+
+  &:hover {
+    background: var(--primary-color);
+    box-shadow: 2px 2px 4px 0.5px var(--accent-color);
+
+    & a {
+      color: var(--accent-color);
+    }
   }
 `
 
@@ -71,7 +82,6 @@ export default () => {
       <SEO title="Projects" />
       <ProjectTileContainer>
         {data.allMarkdownRemark.edges.map(({ node }) => {
-          console.log("Image path: ", node.frontmatter.imageName)
           const projectImage = require(`../images/projects/${node.frontmatter.imageName}`)
 
           return (

@@ -7,6 +7,7 @@ database: "MongoDB"
 other: "SocketIO, Mongoose, Webpack"
 type: "Project"
 imageName: "screenshot-node-chat-app.png"
+projectURL: "http://chat.tommytreb.com"
 ---
 
 # Another App Hits The Web!
