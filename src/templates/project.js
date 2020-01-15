@@ -33,6 +33,10 @@ const VisitLink = styled.a`
   }
 `
 
+const ContentContainer = styled.div`
+  width: 100%;
+`
+
 export default ({ data }) => {
   const post = data.markdownRemark
   const image = require(`../images/projects/${post.frontmatter.imageName}`)
@@ -52,7 +56,7 @@ export default ({ data }) => {
           Visit {post.frontmatter.title}
           <FaExternalLinkAlt style={{ color: "var(--secondary-color)" }} />
         </VisitLink>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <ContentContainer dangerouslySetInnerHTML={{ __html: post.html }} />
         <VisitLink href={post.frontmatter.projectURL} target="_blank">
           Visit {post.frontmatter.title}
           <FaExternalLinkAlt style={{ color: "var(--secondary-color)" }} />
