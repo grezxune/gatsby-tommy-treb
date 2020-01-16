@@ -27,13 +27,18 @@ const CustomListItem = styled.li`
 
   & a {
     text-align: center;
-    color: var(--primary-color);
-    border-bottom: ${({ currentPage }) =>
-      currentPage ? "2px solid var(--primary-color)" : "none"};
+    padding: 5px;
+    border-radius: 3px;
+
+    color: ${({ currentPage }) =>
+      currentPage ? "var(--accent-color)" : "var(--primary-color)"};
+    font-weight: ${({ currentPage }) => (currentPage ? "bold" : "normal")};
+    background: ${({ currentPage }) =>
+      currentPage ? "var(--primary-color)" : "inherit"};
 
     &:hover {
-      border-bottom: ${({ currentPage }) =>
-        currentPage ? "" : "2px solid var(--secondary-color)"};
+      background: var(--primary-color);
+      color: var(--accent-color);
     }
   }
 `

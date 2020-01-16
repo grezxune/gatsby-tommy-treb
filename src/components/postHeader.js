@@ -46,7 +46,7 @@ export default ({ title, subtitle, tags }) => (
     <TagLine>
       {tags &&
         tags.map(tag => (
-          <Tag primaryFirst={false} marginSide={"left"}>
+          <Tag primaryFirst={false} marginSide={"left"} key={`tag-${tag}`}>
             {tag}
           </Tag>
         ))}
