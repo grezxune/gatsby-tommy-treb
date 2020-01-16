@@ -5,6 +5,8 @@ import { FaExternalLinkAlt } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PostHeader from "../components/postHeader"
+import PostBody from "../components/postBody"
 
 const ProjectContainer = styled.div`
   display: flex;
@@ -33,20 +35,19 @@ const VisitLink = styled.a`
   }
 `
 
-const ContentContainer = styled.div`
-  width: 100%;
-`
-
 export default ({ data }) => {
   const post = data.markdownRemark
   const image = require(`../images/projects/${post.frontmatter.imageName}`)
 
-  console.log("HREF: ", post.frontmatter.projectURL)
   return (
-    <Layout>
+    <Layout
+      capWidth={true}
+      primaryContainerBackground={true}
+      inheritBackground={false}
+    >
       <SEO title={post.frontmatter.title} />
       <ProjectContainer>
-        <h1 style={{ textAlign: "center" }}>{post.frontmatter.title}</h1>
+        <PostHeader title={post.frontmatter.title} />
         <img
           src={image}
           alt={post.frontmatter.title}
@@ -56,7 +57,7 @@ export default ({ data }) => {
           Visit {post.frontmatter.title}
           <FaExternalLinkAlt style={{ color: "var(--secondary-color)" }} />
         </VisitLink>
-        <ContentContainer dangerouslySetInnerHTML={{ __html: post.html }} />
+        <PostBody html={{ __html: post.html }} />
         <VisitLink href={post.frontmatter.projectURL} target="_blank">
           Visit {post.frontmatter.title}
           <FaExternalLinkAlt style={{ color: "var(--secondary-color)" }} />

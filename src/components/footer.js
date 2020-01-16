@@ -6,6 +6,7 @@ const Footer = styled.footer`
   background: var(--accent-color);
   padding: 10px;
   color: var(--primary-color);
+  font-family: var(--secondary-font);
 `
 
 export default () => {

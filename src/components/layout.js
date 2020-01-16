@@ -14,16 +14,30 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  background: ${({ primaryContainerBackground }) =>
+    primaryContainerBackground
+      ? "var(--primary-color)"
+      : "var(--secondary-color)"};
 `
 
 const Main = styled.main`
+  background: ${({ inheritBackground }) =>
+    inheritBackground ? "inherit" : "var(--secondary-color)"};
   width: 100%;
+  max-width: ${({ capWidth }) => (capWidth ? "800px" : "100%")};
   flex: 1;
-  justify-self: flex-start;
+  justify-self: center;
+  align-self: center;
   padding: 1.0875rem 1.45rem;
+  margin: 1rem 0px;
 `
 
-const Layout = ({ children }) => {
+const Layout = ({
+  children,
+  capWidth,
+  inheritBackground,
+  primaryContainerBackground,
+}) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -36,9 +50,11 @@ const Layout = ({ children }) => {
 
   return (
     <IconContext.Provider value={{ color: "var(--accent-color)" }}>
-      <Container>
+      <Container primaryContainerBackground={primaryContainerBackground}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Main>{children}</Main>
+        <Main capWidth={capWidth} inheritBackground={inheritBackground}>
+          {children}
+        </Main>
         <Footer />
       </Container>
     </IconContext.Provider>

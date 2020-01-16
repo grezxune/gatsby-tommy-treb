@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useRef, useEffect, useState } from "react"
+import React from "react"
 import styled from "styled-components"
 
 import Menu from "./menu"
@@ -32,66 +32,104 @@ const TitleContainer = styled.div`
 const MovingTitle = styled.h1`
   display: inline-block;
   position: relative;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 40px;
 
   animation: titleMovement 10s infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
 
-  @keyframes titleMovement {
-    0% {
-      left: 0px;
-    }
+  // @keyframes titleMovement {
+  //   0% {
+  //     left: 0px;
+  //   }
 
-    100% {
-      ${({ animationValues }) => `left: ${animationValues["100%"]}`}
-    }
-  }
+  //   100% {
+  //     ${({ animationValues }) => `left: ${animationValues["100%"]}`}
+  //   }
+  // }
 `
 
 const Header = ({ siteTitle }) => {
-  const titleContainerRef = useRef(null)
-  const movingTitleRef = useRef(null)
-  const [titleContainerWidth, setTitleContainerWidth] = useState(0)
-  const [movingTitleWidth, setMovingTitleWidth] = useState(0)
-  const [maxAnimationLeft, setMaxAnimationLeft] = useState(0)
-  const [animationValues, setAnimationValues] = useState({
-    "0%": "0%",
-    "100%": "0%",
-  })
+  // const titleContainerRef = useRef(null)
+  // const movingTitleRef = useRef(null)
+  // const [titleContainerWidth, setTitleContainerWidth] = useState(0)
+  // const [movingTitleWidth, setMovingTitleWidth] = useState(0)
+  // const [maxAnimationLeft, setMaxAnimationLeft] = useState(0)
+  // const [animationValues, setAnimationValues] = useState({
+  //   "0%": "0%",
+  //   "100%": "10%",
+  // })
 
-  useEffect(() => {
-    const newMaxLeftValue = 90 - (movingTitleWidth / titleContainerWidth) * 100
+  // const resetWidths = () => {
+  //   const newTitleContainerWidth =
+  //     titleContainerRef.current && titleContainerRef.current.offsetWidth
+  //   const newMovingTitleWidth =
+  //     movingTitleRef.current && movingTitleRef.current.offsetWidth
 
-    if (maxAnimationLeft !== newMaxLeftValue) {
-      setMaxAnimationLeft(newMaxLeftValue)
+  //   console.log(
+  //     "Resetting widths: ",
+  //     titleContainerRef.current.offsetWidth,
+  //     newTitleContainerWidth,
+  //     movingTitleRef.current.offsetWidth,
+  //     newMovingTitleWidth
+  //   )
+  //   if (
+  //     newTitleContainerWidth !== titleContainerWidth ||
+  //     newMovingTitleWidth !== movingTitleWidth
+  //   ) {
+  //     setTitleContainerWidth(newTitleContainerWidth - 50)
+  //     setMovingTitleWidth(newMovingTitleWidth)
+  //   }
+  // }
 
-      setAnimationValues({
-        ...animationValues,
-        "100%": newMaxLeftValue + "%",
-      })
-    }
-  }, [animationValues, maxAnimationLeft, titleContainerWidth, movingTitleWidth])
+  // useEffect(() => {
+  //   console.log(
+  //     "In use effect",
+  //     animationValues,
+  //     maxAnimationLeft,
+  //     titleContainerWidth,
+  //     movingTitleWidth
+  //   )
 
-  if (titleContainerRef.current) {
-    setInterval(() => {
-      const newTitleContainerWidth =
-        titleContainerRef.current && titleContainerRef.current.offsetWidth
-      const newMovingTitleWidth =
-        movingTitleRef.current && movingTitleRef.current.offsetWidth
+  //   let newMaxLeftValue = movingTitleWidth / titleContainerWidth
+  //   newMaxLeftValue *= 100
+  //   newMaxLeftValue = 100 - newMaxLeftValue
 
-      if (
-        newTitleContainerWidth !== titleContainerWidth ||
-        newMovingTitleWidth !== movingTitleWidth
-      ) {
-        setTitleContainerWidth(newTitleContainerWidth)
-        setMovingTitleWidth(newMovingTitleWidth)
-      }
-    }, 2000)
-  }
+  //   if (maxAnimationLeft !== newMaxLeftValue && !isNaN(newMaxLeftValue)) {
+  //     setMaxAnimationLeft(newMaxLeftValue)
+
+  //     setAnimationValues({
+  //       ...animationValues,
+  //       "100%": newMaxLeftValue + "%",
+  //     })
+  //   }
+  // }, [animationValues, maxAnimationLeft, titleContainerWidth, movingTitleWidth])
+
+  // if (window && !window.onresize) {
+  //   window.onresize = resetWidths
+  // }
+
   return (
     <HeaderContainer>
-      <TitleContainer ref={titleContainerRef}>
-        <MovingTitle ref={movingTitleRef} animationValues={animationValues}>
+      <TitleContainer
+        ref={ref => {
+          if (ref) {
+            // titleContainerRef.current = ref
+            // setTitleContainerWidth(ref.offsetWidth - 50)
+          }
+        }}
+      >
+        <MovingTitle
+          ref={ref => {
+            if (ref) {
+              // movingTitleRef.current = ref
+              // setMovingTitleWidth(ref.offsetWidth)
+            }
+          }}
+          // animationValues={animationValues}
+        >
           <Link
             to="/"
             style={{

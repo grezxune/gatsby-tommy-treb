@@ -38,7 +38,6 @@ exports.createPages = ({ actions, graphql }) => {
             break
         }
 
-        console.log(node.frontmatter.type)
         createPage({
           path: node.frontmatter.path,
           component,

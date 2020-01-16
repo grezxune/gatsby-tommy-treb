@@ -78,7 +78,11 @@ export default () => {
   `)
 
   return (
-    <Layout>
+    <Layout
+      capWidth={false}
+      primaryContainerBackground={false}
+      inheritBackground={true}
+    >
       <SEO title="Projects" />
       <ProjectTileContainer>
         {data.allMarkdownRemark.edges.map(({ node }) => {

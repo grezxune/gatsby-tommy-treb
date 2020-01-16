@@ -4,6 +4,7 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Tag from "../components/tag"
 
 const BlogList = styled.div`
   display: flex;
@@ -13,14 +14,10 @@ const BlogList = styled.div`
 `
 
 const BlogListItem = styled(Link)`
-  min-width: 50vw;
+  width: 100%;
   margin: 10px 0px;
   padding: 10px;
   background: var(--accent-color);
-
-  @media (max-width: 1000px) {
-    min-width: 100%;
-  }
 
   & h3,
   small {
@@ -42,7 +39,7 @@ const BlogListItem = styled(Link)`
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout>
+    <Layout capWidth={true} inheritBackground={true}>
       <SEO title="Blog" />
       <BlogList>
         {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -52,8 +49,21 @@ const BlogPage = ({ data }) => {
             className="hover-card"
           >
             <h3>{node.frontmatter.title}</h3>
-            <small style={{ display: "block" }}>
-              Posted by {node.frontmatter.author} on {node.frontmatter.date}
+            {node.frontmatter.tags &&
+              node.frontmatter.tags.map(tag => (
+                <Tag
+                  key={`${node.id}-tag-${tag}`}
+                  parent={BlogListItem}
+                  primaryFirst={true}
+                  marginSide={"right"}
+                >
+                  {tag}
+                </Tag>
+              ))}
+            <small
+              style={{ display: "block", fontFamily: "var(--secondary-font)" }}
+            >
+              {node.frontmatter.date}
             </small>
           </BlogListItem>
         ))}
@@ -76,6 +86,7 @@ export const pageQuery = graphql`
             path
             date
             author
+            tags
           }
         }
       }
