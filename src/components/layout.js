@@ -30,6 +30,10 @@ const Main = styled.main`
   align-self: center;
   padding: 1.0875rem 1.45rem;
   margin: 1rem 0px;
+
+  @media (max-width: 800px) {
+    margin: 0px;
+  }
 `
 
 const Layout = ({
