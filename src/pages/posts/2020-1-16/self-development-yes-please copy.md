@@ -21,17 +21,17 @@ Do any of these questions excite some neourons in your brain? If so, read on!
 
 I hadn't read a full book in probably close to a decade; it just wasn't something I enjoyed, or so I thought. I did however have an interest in professional development and learning new things. This was an interest because I began to learn that what I know is that I don't know very much at all, and there were ways to change that. Now, before there's a misconception here, I wasn't totally clueless. I had already attained a Bachelors of Science in Computer Science and was working as a software engineer at this time. The field of computer science is wide and vast, and growing at about the rate of the universe. Because of this, I had to have an interest in learning if I didn't want to get left behind. This lead me to things outside of just computer science, though.
 
-Two years ago my (now) wife, Jeanna, had bought me a couple books that would fall in the self-development category for Christmas. I read a portion of one of them (The 4 Hour Work Week[InsertLinkHere]), but had failed to find the spark that would send me on a reading frenzy like I could sense I was craving... that is until one day I paid more attention to one of the books on the shelf. It was titled "Do Cool SH\*T [InsertLinkHere]". Not only was the title a bit intriguing, but the spine of the book was also visually attractive. Basically, marketing got me! I'm glad it did!
+Two years ago my (now) wife, Jeanna, had bought me a couple books that would fall in the self-development category for Christmas. I read a portion of one of [The 4 Hour Work Week](https://amzn.to/2FYx335), but had failed to find the spark that would send me on a reading frenzy like I could sense I was craving... that is until one day I paid more attention to one of the books on the shelf. It was titled [Do Cool Sh\*t](https://amzn.to/35Ynqfa). Not only was the title a bit intriguing, but the spine of the book was also visually attractive. Basically, marketing got me! I'm glad it did!
 
 It took a few days of thinking about the book as I went in and out of my office and saw it each time. Each time this happened, my thoughts of reading this book intensified. Finally, I decided I'd pick it up and start reading. It only took me a couple days to finish; It was way more interesting than I thought it would be! This was a good intro into the self-development genre because this particular book is written as a story. It's an easy read, and it did its job - I was extremely motivated! After this, I began to read almost every day. I had 2 full books finished in a month, and by this time it was Christmas time again. Because of this new-found passion, Jeanna decided to buy me a handful of the books I had at the top of my list as a gift that year as well.
 
 Among this list were books like:
 
-- How to Win Friends and Influence People
-- The 7 Habits of Highly Effective People
-- Secrets of The Millionaire Mind
-- The 5 Second Rule
-- The Compound Effect
+- [How to Win Friends and Influence People](https://amzn.to/37atEdu)
+- [The 7 Habits of Highly Effective People](https://amzn.to/30FZhJv)
+- [Secrets of The Millionaire Mind](https://amzn.to/2NCWKud)
+- [The 5 Second Rule](https://amzn.to/3620cVz)
+- [The Compound Effect](https://amzn.to/2FWfXmp)
 
 This was a list of a few of the books that I had gotten recommendations for throughout the year. I heard of some of these through podcasts, co-workers, friends, etc.
 
@@ -39,15 +39,7 @@ I had read almost the entire stack in the first few months of 2019. My life was 
 
 # HOW. EXCITING. IS. THAT?!
 
-# REFACTOR THIS NEXT PARAGRAPH
-
-# REFACTOR THIS NEXT PARAGRAPH
-
-# REFACTOR THIS NEXT PARAGRAPH
-
-# REFACTOR THIS NEXT PARAGRAPH
-
-One of my favorite things about these books is they have a great way of making YOU aware of why you do things the way you do, why you act the way you do, spend/save money the way you do, etc. And along the way, they also show you how you can change these things, if you so DESIRE. This is possible even if you've been doing something a certain way your WHOLE LIFE! Guess what, the only limit in your life is the limit in your own thinking.
+The thing with these books is there will be times when you're reading and you realize it is describing something that matches up pretty much spot on in your life. When this happens, you have two choices: laugh it off and decide to not reconsider your actions, or you can actually think about what the material is telling you and consider changing a behavior of yours. After all, the point in reading self development books is to become a better human in some way, shape, or form. The difference you will see if you choose to change things in your life may not be immediate, but it will be profound. If something comes up in the material and you feel like it cannot apply to you for some reason, consider the FACT that you can do whatever it is you DESIRE. There is ALWAYS many sets of actions that you can take to get you wherever, or whatever, it is you want to be or have. The only limit in your life is the limit in your own thinking.
 
 That means ... whoa whoa whoa. Hold up. What did I just say?
 
@@ -55,11 +47,11 @@ That means ... whoa whoa whoa. Hold up. What did I just say?
 
 Did you read that?
 
-#### THE ONLY LIMIT IN YOUR LIFE IS THE LIMIT IN YOUR OWN THINKING!
+# THE ONLY LIMIT IN YOUR LIFE IS THE LIMIT IN YOUR OWN THINKING!
 
 Write this down on a piece of paper, and keep it somewhere you'll see it and be reminded of it every single day. Meditate on this, think about it once per hour. Once you convince yourself of this fact, your life WILL change for the better! You will start seeing opportunity where you used to see failure, or worse yet, where you used to see nothing at all.
 
-I didn't come up with this quote, so don't let me fool you. A man by the name of Bob Proctor said this in a youtube video titled "Abundance Meditation" [insertLinkHere], and it is now my favorite quote of all time. I am going to be getting my very first tattoo and associating it with this quote. I'm very excited for that!
+I didn't come up with this quote, so don't let me fool you. A man by the name of Bob Proctor said this in a youtube video titled ["Abundance Meditation"](https://www.youtube.com/watch?v=lssNBHXz4Vw), and it is now my favorite quote of all time. I am going to be getting my very first tattoo and associating it with this quote. I'm very excited for that!
 
 How can I prove this is true?
 

@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
+import Select from "react-select"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -38,11 +39,63 @@ const BlogListItem = styled(Link)`
 `
 
 const BlogPage = ({ data }) => {
+  const [filters, setFilters] = useState([])
+
+  const allTags = data.allMarkdownRemark.edges
+    .map(({ node }) => node)
+    .reduce((acc, cur) => {
+      const tags = cur && cur.frontmatter && cur.frontmatter.tags
+      const newTags = []
+
+      if (tags) {
+        tags.forEach(tag => {
+          if (!acc.some(x => x.value === tag)) {
+            newTags.push({ value: tag, label: tag })
+          }
+        })
+      }
+
+      return [...acc, ...newTags]
+    }, [])
+
+  const onFilterChanged = updatedFilters => {
+    setFilters(updatedFilters || [])
+  }
+
+  const filteredPosts = data.allMarkdownRemark.edges.filter(({ node }) => {
+    if (filters.length > 0) {
+      const nodeTags = node.frontmatter.tags
+
+      return nodeTags && filters.some(filter => nodeTags.includes(filter.value))
+    } else {
+      return true
+    }
+  })
+
+  const customStyles = {
+    container: provided => ({
+      ...provided,
+      flex: 1,
+    }),
+  }
+
   return (
     <Layout capWidth={true} inheritBackground={true}>
       <SEO title="Blog" />
+      {allTags && allTags.length > 0 && (
+        <Select
+          styles={customStyles}
+          value={filters}
+          options={allTags}
+          onChange={onFilterChanged}
+          isMulti={true}
+          isSearchable={true}
+          hideSelectedOptions={false}
+          placeholder={"Tag Filters"}
+        />
+      )}
       <BlogList>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {filteredPosts.map(({ node }) => (
           <BlogListItem
             key={node.id}
             to={node.frontmatter.path}
