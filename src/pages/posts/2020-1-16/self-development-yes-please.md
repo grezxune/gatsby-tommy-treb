@@ -51,7 +51,7 @@ Did you read that?
 
 Write this down on a piece of paper, and keep it somewhere you'll see it and be reminded of it every single day. Meditate on this, think about it once per hour. Once you convince yourself of this fact, your life WILL change for the better! You will start seeing opportunity where you used to see failure, or worse yet, where you used to see nothing at all.
 
-I didn't come up with this quote, so don't let me fool you. A man by the name of Bob Proctor said this in a youtube video titled ["Abundance Meditation"](https://www.youtube.com/watch?v=lssNBHXz4Vw), and it is now my favorite quote of all time. I am going to be getting my very first tattoo and associating it with this quote. I'm very excited for that!
+I didn't come up with this quote, so don't let me fool you. A man by the name of Bob Proctor said this in a youtube video titled ["Abundance Meditation"](https://www.youtube.com/watch?v=lssNBHXz4Vw), and it is now my favorite quote of all time. I would recommend taking 20 minutes to listen to this meditation video at least once. My first tattoo is going to be a depiction of this quote.
 
 How can I prove this is true?
 
@@ -75,11 +75,11 @@ To continue self developing, I would highly suggest diving into a book that soun
 
 #### Book Recommendations
 
-1. Think and Grow Rich - Napoleon Hill [InsertLink] Amazon and Audible options
+1. [Think and Grow Rich - Napoleon Hill](https://amzn.to/2TAXfc2) Amazon and Audible options
    - This book lays out the 13 steps to achieve anything you could ever ask for in life. This is the real deal, from back in 1937 and is still the top seller in its category today! This is my ALL TIME FAVORITE book!
-2. How to Win Friends and Influence People - Dale Carnegie [InsertLink]
+2. [How to Win Friends and Influence People - Dale Carnegie](https://amzn.to/37atEdu)
    - Charles Manson used the techniques in this book to build the Manson Family, that's how powerful it is! I would urge you to not use it for malicious purposes like Mr. Manson, however having these skills to use for good is absolutely priceless!
-3. Rich Dad Poor Dad - Robert Kiyosaki [InsertLink]
+3. [Rich Dad Poor Dad - Robert Kiyosaki](https://amzn.to/37bweQs)
    - This is my favorite book so far on wealth building techniques. This book emphasizes obtaining assets and limiting liabilities in your life, and will give you a sure way of becoming wealthy. This is a favorite of MANY successful people I've talked to.
-4. The Science of Getting Rich - Wallace D. Wattles [InsertLink]
+4. [The Science of Getting Rich - Wallace D. Wattles](https://amzn.to/2Rx5BP0)
    - Wallace Wattles does a fantastic job describing what the Law of Attraction is, and laying out practical steps on how to use it. This is one of my favorite topics, and is in effect 24/7/365 whether you are aware of it or not - which can be VERY dangerous if you're not aware! This is also a pretty short read.
