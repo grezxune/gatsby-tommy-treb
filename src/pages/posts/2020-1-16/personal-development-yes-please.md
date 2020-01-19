@@ -11,7 +11,7 @@ tags:
   - "Books"
 ---
 
-# Self Development? Yes Please!
+# Personal Development? Yes Please!
 
 ### Why Are You Here?
 
@@ -23,9 +23,9 @@ Do any of these questions excite some neourons in your brain? If so, read on!
 
 I hadn't read a full book in probably close to a decade; it just wasn't something I enjoyed, or so I thought. I did however have an interest in professional development and learning new things. This was an interest because I began to learn that what I know is that I don't know very much at all, and there were ways to change that. Now, before there's a misconception here, I wasn't totally clueless. I had already attained a Bachelors of Science in Computer Science and was working as a software engineer at this time. The field of computer science is wide and vast, and growing at about the rate of the universe. Because of this, I had to have an interest in learning if I didn't want to get left behind. This lead me to things outside of just computer science, though.
 
-Two years ago my (now) wife, Jeanna, had bought me a couple books that would fall in the self-development category for Christmas. I read a portion of one of [The 4 Hour Work Week](https://amzn.to/2FYx335), but had failed to find the spark that would send me on a reading frenzy like I could sense I was craving... that is until one day I paid more attention to one of the books on the shelf. It was titled [Do Cool Sh\*t](https://amzn.to/35Ynqfa). Not only was the title a bit intriguing, but the spine of the book was also visually attractive. Basically, marketing got me! I'm glad it did!
+Two years ago my (now) wife, Jeanna, had bought me a couple books that would fall in the personal development category for Christmas. I read a portion of one of [The 4 Hour Work Week](https://amzn.to/2FYx335), but had failed to find the spark that would send me on a reading frenzy like I could sense I was craving... that is until one day I paid more attention to one of the books on the shelf. It was titled [Do Cool Sh\*t](https://amzn.to/35Ynqfa). Not only was the title a bit intriguing, but the spine of the book was also visually attractive. Basically, marketing got me! I'm glad it did!
 
-It took a few days of thinking about the book as I went in and out of my office and saw it each time. Each time this happened, my thoughts of reading this book intensified. Finally, I decided I'd pick it up and start reading. It only took me a couple days to finish; It was way more interesting than I thought it would be! This was a good intro into the self-development genre because this particular book is written as a story. It's an easy read, and it did its job - I was extremely motivated! After this, I began to read almost every day. I had 2 full books finished in a month, and by this time it was Christmas time again. Because of this new-found passion, Jeanna decided to buy me a handful of the books I had at the top of my list as a gift that year as well.
+It took a few days of thinking about the book as I went in and out of my office and saw it each time. Each time this happened, my thoughts of reading this book intensified. Finally, I decided I'd pick it up and start reading. It only took me a couple days to finish; It was way more interesting than I thought it would be! This was a good intro into the personal development genre because this particular book is written as a story. It's an easy read, and it did its job - I was extremely motivated! After this, I began to read almost every day. I had 2 full books finished in a month, and by this time it was Christmas time again. Because of this new-found passion, Jeanna decided to buy me a handful of the books I had at the top of my list as a gift that year as well.
 
 Among this list were books like:
 
@@ -41,7 +41,7 @@ I had read almost the entire stack in the first few months of 2019. My life was 
 
 # HOW. EXCITING. IS. THAT?!
 
-The thing with these books is there will be times when you're reading and you realize it is describing something that matches up pretty much spot on in your life. When this happens, you have two choices: laugh it off and decide to not reconsider your actions, or you can actually think about what the material is telling you and consider changing a behavior of yours. After all, the point in reading self development books is to become a better human in some way, shape, or form. The difference you will see if you choose to change things in your life may not be immediate, but it will be profound. If something comes up in the material and you feel like it cannot apply to you for some reason, consider the FACT that you can do whatever it is you DESIRE. There is ALWAYS many sets of actions that you can take to get you wherever, or whatever, it is you want to be or have. The only limit in your life is the limit in your own thinking.
+The thing with these books is there will be times when you're reading and you realize it is describing something that matches up pretty much spot on in your life. When this happens, you have two choices: laugh it off and decide to not reconsider your actions, or you can actually think about what the material is telling you and consider changing a behavior of yours. After all, the point in reading personal development books is to become a better human in some way, shape, or form. The difference you will see if you choose to change things in your life may not be immediate, but it will be profound. If something comes up in the material and you feel like it cannot apply to you for some reason, consider the FACT that you can do whatever it is you DESIRE. There is ALWAYS many sets of actions that you can take to get you wherever, or whatever, it is you want to be or have. The only limit in your life is the limit in your own thinking.
 
 That means ... whoa whoa whoa. Hold up. What did I just say?
 
@@ -73,7 +73,7 @@ I'm not saying these are practical, or something you should attempt to do, but w
 
 I'm so glad you feel this way! Me too! :)
 
-To continue self developing, I would highly suggest diving into a book that sounds interesting to you on the broad topic. I'll leave you with my current recommended list and note my top two. If you find yourself strapped for time to actually sit down and read, Audible is a truly fantastic platform that allows you to listen to books instead of reading them. You can bookmark spots you love and want to revisit, and it is broken down by chapter. You also get your first book free!
+To continue on the personal development path, I would highly suggest diving into a book that sounds interesting to you on the broad topic. I'll leave you with my current recommended list and note my top two. If you find yourself strapped for time to actually sit down and read, Audible is a truly fantastic platform that allows you to listen to books instead of reading them. You can bookmark spots you love and want to revisit, and it is broken down by chapter. You also get your first book free!
 
 #### Book Recommendations
 

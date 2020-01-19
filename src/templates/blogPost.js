@@ -1,11 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostHeader from "../components/postHeader"
 import PostBody from "../components/postBody"
+
+const PostImage = styled(Img)`
+  margin-bottom: 20px;
+`
 
 export default ({ data }) => {
   const post = data.markdownRemark
@@ -26,7 +31,7 @@ export default ({ data }) => {
           subtitle={post.frontmatter.date}
           tags={post.frontmatter.tags}
         />
-        <Img fluid={featuredImgFluid} />
+        <PostImage fluid={featuredImgFluid} />
         <PostBody html={{ __html: post.html }} />
       </div>
     </Layout>
