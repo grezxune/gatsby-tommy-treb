@@ -92,6 +92,8 @@ const BlogPage = ({ data }) => {
           isSearchable={true}
           hideSelectedOptions={false}
           placeholder={"Tag Filters"}
+          closeMenuOnSelect={false}
+          close
         />
       )}
       <BlogList>
