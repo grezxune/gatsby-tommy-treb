@@ -13,6 +13,10 @@ const ProjectContainer = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 800px) {
+    padding: 0px 1.5rem;
+  }
 `
 
 const VisitLink = styled.a`

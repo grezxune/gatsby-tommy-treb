@@ -8,6 +8,12 @@ import SEO from "../components/seo"
 import PostHeader from "../components/postHeader"
 import PostBody from "../components/postBody"
 
+const Container = styled.div`
+  @media (min-width: 800px) {
+    padding: 0px 1.5rem;
+  }
+`
+
 const PostImage = styled(Img)`
   margin-bottom: 20px;
 `
@@ -25,7 +31,7 @@ export default ({ data }) => {
         descrition={post.frontmatter.description}
         image={featuredImgFluid}
       />
-      <div>
+      <Container>
         <PostHeader
           title={post.frontmatter.title}
           subtitle={post.frontmatter.date}
@@ -33,7 +39,7 @@ export default ({ data }) => {
         />
         <PostImage fluid={featuredImgFluid} />
         <PostBody html={{ __html: post.html }} />
-      </div>
+      </Container>
     </Layout>
   )
 }

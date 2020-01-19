@@ -14,7 +14,10 @@ const Container = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  padding: 0px 1.5rem;
+
+  @media (min-width: 800px) {
+    padding: 0px 1.5rem;
+  }
 `
 
 const IndexPage = () => {
