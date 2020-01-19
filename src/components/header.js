@@ -23,10 +23,16 @@ const HeaderContainer = styled.header`
 `
 
 const TitleContainer = styled.div`
-  padding: 1.5rem 1.1rem;
+  padding: 1.5rem 0px;
   margin-bottom: 20px;
-  padding-bottom: 0px;
   width: 100%;
+  max-width: 800px;
+  padding-bottom: 0px;
+
+  @media (max-width: 800px) {
+    padding: 1.5rem;
+    padding-bottom: 0px;
+  }
 `
 
 const MovingTitle = styled.h1`

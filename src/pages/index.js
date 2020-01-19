@@ -14,13 +14,14 @@ const Container = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  padding: 0px 1.5rem;
 `
 
 const IndexPage = () => {
   const profileImage = require("../images/profile.jpg")
 
   return (
-    <Layout>
+    <Layout capWidth={true} primaryContainerBackground={true}>
       <SEO title="Home" />
       <Container>
         <h4>Ginger</h4>

@@ -7,12 +7,17 @@ const Container = styled.div`
   background: var(--accent-color);
   padding: 10px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const MenuList = styled.ul`
   list-style: none;
   display: flex;
   margin: 0px;
+  max-width: 800px;
+  flex: 1;
 `
 
 const CustomListItem = styled.li`

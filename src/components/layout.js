@@ -28,11 +28,12 @@ const Main = styled.main`
   flex: 1;
   justify-self: center;
   align-self: center;
-  padding: 1.0875rem 1.45rem;
+  padding: 1.0875rem 0px;
   margin: 1rem 0px;
 
   @media (max-width: 800px) {
     margin: 0px;
+    padding: 1.0875rem 1.45rem;
   }
 `
 
