@@ -50,10 +50,6 @@ export default props => {
       title: "Home",
     },
     {
-      path: "/about",
-      title: "About",
-    },
-    {
       path: "/projectList",
       title: "Projects",
     },
