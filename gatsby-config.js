@@ -3,6 +3,7 @@ module.exports = {
     title: `Tommy Treb`,
     description: `My Online Space`,
     author: `Tommy Treb`,
+    homeURL: "https://tommytreb.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

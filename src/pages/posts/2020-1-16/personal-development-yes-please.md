@@ -1,9 +1,11 @@
 ---
-title: "Self Development? Yes Please!"
-path: "/self-development"
+title: "Personal Development? Yes Please!"
+path: "/personal-development"
 type: "Blog"
 date: "2020-01-16"
 author: "Tommy Treb"
+description: "A list of and story about some fantastic personal development resources!"
+featuredImage: "personal-dev-blog.jpg"
 tags:
   - "Motivation"
   - "Books"

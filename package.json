@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "tommy-treb-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A space where I can express myself and publish any content my heart desires.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tommy Treb <tomtrezb2003@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.18.12",
@@ -31,7 +31,15 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "tommy",
+    "tommy treb",
+    "developer",
+    "motivatoin",
+    "books",
+    "review",
+    "programming",
+    "react",
+    "javascript"
   ],
   "license": "MIT",
   "scripts": {
