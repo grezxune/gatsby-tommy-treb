@@ -45,7 +45,7 @@ The thing with these books is there will be times when you're reading and you re
 
 That means ... whoa whoa whoa. Hold up. What did I just say?
 
-#### The only limit in your life is the limit in your own thinking.
+### The only limit in your life is the limit in your own thinking.
 
 Did you read that?
 
@@ -75,9 +75,13 @@ I'm so glad you feel this way! Me too! :)
 
 To continue on the personal development path, I would highly suggest diving into a book that sounds interesting to you on the broad topic. I'll leave you with my current recommended list and note my top two. If you find yourself strapped for time to actually sit down and read, Audible is a truly fantastic platform that allows you to listen to books instead of reading them. You can bookmark spots you love and want to revisit, and it is broken down by chapter. You also get your first book free!
 
-#### Book Recommendations
+### Book Recommendations
 
-1. [Think and Grow Rich - Napoleon Hill](https://amzn.to/2TAXfc2) Amazon and Audible options
+#### Both Amaon and Audible versions of these are available
+
+Audible is a FANTASTIC way to absorb information from these resources. It allows you to listen in the car, while showering, or just sitting and listening, etc.
+
+1. [Think and Grow Rich - Napoleon Hill](https://amzn.to/2TAXfc2)
    - This book lays out the 13 steps to achieve anything you could ever ask for in life. This is the real deal, from back in 1937 and is still the top seller in its category today! This is my ALL TIME FAVORITE book!
 2. [How to Win Friends and Influence People - Dale Carnegie](https://amzn.to/37atEdu)
    - Charles Manson used the techniques in this book to build the Manson Family, that's how powerful it is! I would urge you to not use it for malicious purposes like Mr. Manson, however having these skills to use for good is absolutely priceless!
@@ -85,3 +89,7 @@ To continue on the personal development path, I would highly suggest diving into
    - This is my favorite book so far on wealth building techniques. This book emphasizes obtaining assets and limiting liabilities in your life, and will give you a sure way of becoming wealthy. This is a favorite of MANY successful people I've talked to.
 4. [The Science of Getting Rich - Wallace D. Wattles](https://amzn.to/2Rx5BP0)
    - Wallace Wattles does a fantastic job describing what the Law of Attraction is, and laying out practical steps on how to use it. This is one of my favorite topics, and is in effect 24/7/365 whether you are aware of it or not - which can be VERY dangerous if you're not aware! This is also a pretty short read.
+
+### In Conclusion
+
+If you have any questions, or would like to talk about this topic or the resouces I've mentioned, please feel free to reach out! For now, I've got my Facebook and Twitter linked in the footer of this website.
