@@ -79,7 +79,7 @@ To continue on the personal development path, I would highly suggest diving into
 
 #### Both Amaon and Audible versions of these are available
 
-Audible is a FANTASTIC way to absorb information from these resources. It allows you to listen in the car, while showering, or just sitting and listening, etc.
+Audible is a FANTASTIC way to absorb information from these resources. It allows you to listen in the car, while showering, or just sitting and listening, etc. ALSO, you can get your first book on Audible for FREE! Once you sign up you will get a credit which can be used for any book on the platform. If you don't want to continue your subscription, you can cancel and still keep the credit or book purchased with the credit. If you haven't tried Audible yet, you've got nothing to lose, but so much to gain!
 
 1. [Think and Grow Rich - Napoleon Hill](https://amzn.to/2TAXfc2)
    - This book lays out the 13 steps to achieve anything you could ever ask for in life. This is the real deal, from back in 1937 and is still the top seller in its category today! This is my ALL TIME FAVORITE book!
