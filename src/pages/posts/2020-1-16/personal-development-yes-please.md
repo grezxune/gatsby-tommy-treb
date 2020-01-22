@@ -77,7 +77,7 @@ To continue on the personal development path, I would highly suggest diving into
 
 ### Book Recommendations
 
-#### Both Amaon and Audible versions of these are available
+#### Both Amazon and Audible versions of these are available
 
 Audible is a FANTASTIC way to absorb information from these resources. It allows you to listen in the car, while showering, or just sitting and listening, etc. ALSO, you can get your first book on Audible for FREE! Once you sign up you will get a credit which can be used for any book on the platform. If you don't want to continue your subscription, you can cancel and still keep the credit or book purchased with the credit. If you haven't tried Audible yet, you've got nothing to lose, but so much to gain!
 
