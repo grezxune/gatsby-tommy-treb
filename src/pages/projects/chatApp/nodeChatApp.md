@@ -24,7 +24,7 @@ Eventually the Udemy course got to the point of adding private chat rooms! This 
 
 # Handling An Event (Node.js code)
 
-{% highlight JavaScript linenos %}
+```
 const express = require('express');
 const socketIO = require('socket.io');
 var app = express();
@@ -46,7 +46,7 @@ socket.on('tommyIsAwesome', (data, callback) => {
     // More code, could be more listeners or emitting
 
 });
-{% endhighlight %}
+```
 
 So on the 'connection' event (a built in event with Socket.io), the new socket is sent to the function callback. Inside of here, any number of things can be done with the new socket, including listening to new events, like 'tommyIsAwesome', or 'baconIsGross' (breaking news, this is actually true now!) and they are all handled the same. There are a few things that can change though, and this is the data and callback that is passed to the callback of the event, and the parameters passed to the callback. Okay, if that was confusing, I'll break that down per line from the example I gave above.
 
@@ -66,7 +66,7 @@ These can be handled however necessary on the emitting side of the event.
 
 So we've now covered handling an event, but how do you emit one? Here is an example using much of the same code as before:
 
-{% highlight JavaScript linenos %}
+```
 const express = require('express');
 const socketIO = require('socket.io');
 var app = express();
@@ -93,17 +93,17 @@ io.on('connection', (socket) => {
 });
 
 // More code where events can be emitted based on other things happening
-{% endhighlight %}
+```
 
 The first thing worth noting here, is we have filled the parameters. The first parameter is the event name `update`, the second is an object `{ updatedData: 'New Stuff!' }`, and the callback takes a single parameter (could be any number of them) that we call `err`.
 
 This event being emitted will be handled anywhere the io object, or a socket connected to the server has code like our first example where it calls the `on` method, like so:
 
-{% highlight JavaScript linenos %}
+```
 socket.on('update', (updatedData, callback) => {
 // Handle event
 });
-{% endhighlight %}
+```
 
 This code would most likely be on the client to handle the update, as it is fired from the server, however it would work to handle it in either place.
 
