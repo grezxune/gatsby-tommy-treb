@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
@@ -52,6 +52,13 @@ const Layout = ({
       }
     }
   `)
+
+  useEffect(() => {
+    ;(adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-3601891123709132",
+      enable_page_level_ads: true,
+    })
+  })
 
   return (
     <IconContext.Provider value={{ color: "var(--accent-color)" }}>
