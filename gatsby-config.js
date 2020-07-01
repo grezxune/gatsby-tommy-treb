@@ -15,6 +15,12 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-styled-components`,
     {
+      resolve: "gatsby-plugin-google-adsense",
+      options: {
+        publisherId: "ca-pub-3601891123709132",
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-66685838-1",

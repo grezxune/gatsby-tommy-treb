@@ -53,13 +53,6 @@ const Layout = ({
     }
   `)
 
-  useEffect(() => {
-    ;(adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-3601891123709132",
-      enable_page_level_ads: true,
-    })
-  })
-
   return (
     <IconContext.Provider value={{ color: "var(--accent-color)" }}>
       <Container primaryContainerBackground={primaryContainerBackground}>
